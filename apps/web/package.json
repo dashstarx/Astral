@@ -1,5 +1,5 @@
 {
-  "name": "@dashbot/web",
+  "name": "@astral/web",
   "version": "1.0.0",
   "dependencies": {
     "next": "^14.0.4",

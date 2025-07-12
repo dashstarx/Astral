@@ -1,5 +1,5 @@
 {
-  "name": "dashbot",
+  "name": "astral",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
@@ -7,7 +7,11 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "echo 'Add dev scripts to individual apps'",
-    "build": "echo 'Add build scripts to individual apps'"
+    "dev": "npm run dev --workspace=apps/bot",
+    "dev:bot": "npm run dev --workspace=apps/bot",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspaces",
+    "build:bot": "npm run build --workspace=apps/bot",
+    "build:web": "npm run build --workspace=apps/web"
   }
 } 
