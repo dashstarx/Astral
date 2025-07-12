@@ -1,0 +1,13 @@
+{
+  "name": "dashbot",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "echo 'Add dev scripts to individual apps'",
+    "build": "echo 'Add build scripts to individual apps'"
+  }
+} 
