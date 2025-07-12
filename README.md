@@ -1,4 +1,4 @@
-# DashBot
+# Astral
 *Custom Discord Bot For Dash*
 
 ## 🛠 Tech Stack
